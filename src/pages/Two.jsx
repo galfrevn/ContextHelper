@@ -29,7 +29,7 @@ export default function Two() {
     } 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [client])
-  
+
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <input type="text" placeholder="Seven" {...register("seven", {required: true, maxLength: 80})} />
