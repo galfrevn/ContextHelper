@@ -32,9 +32,9 @@ export default function Two() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
+      { formData.one === "Valentin" && (<p> {formData.one} </p> )  }
       <input type="text" placeholder="Seven" {...register("seven", {required: true, maxLength: 80})} />
-
-      <input type="submit" />
+      <button>Terminar</button>
     </form>
   );
 }
