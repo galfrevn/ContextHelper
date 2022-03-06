@@ -8,11 +8,11 @@ function Show() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (!formData.lenght) {
+    if (!formData.one) {
       navigate("/");
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [formData]);
+  }, []);
 
   return (
     <div className="App">
