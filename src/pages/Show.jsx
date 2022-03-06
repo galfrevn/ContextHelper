@@ -17,6 +17,8 @@ function Show() {
         <br />
         {formData.four}
         <br />
+        {formData.four + 20}
+        <br />
         {formData.five}
         <br />
         {formData.six}

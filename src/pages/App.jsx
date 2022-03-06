@@ -39,7 +39,7 @@ export default function App() {
       setValue("one", "Valentin" )
       setValue("two", "Galfré" )
       setValue("three", "galfre.vn@gmail.com" )
-      setValue("four", "3425281402" )
+      setValue("four", 3425281402 )
       setValue("five", "Mr" )
       setValue("six", "Yes" )
     }
@@ -47,7 +47,7 @@ export default function App() {
       setValue("one", "Franco" )
       setValue("two", "Galfré" )
       setValue("three", "francogalfre2007@gmail.com" )
-      setValue("four", "4752013" )
+      setValue("four", 4752013 )
       setValue("five", "Dr" )
       setValue("six", "No" )
     }
@@ -77,7 +77,7 @@ export default function App() {
         {...register("three", { required: true, pattern: /^\S+@\S+$/i })} defaultValue={client.three}
       />
       <input
-        type="tel"
+        type="number"
         placeholder="Mobile number"
         {...register("four", { required: true, minLength: 6, maxLength: 12 })} defaultValue={client.four}
       />
